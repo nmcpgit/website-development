@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>National Malaria Control Program</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2d441ad82f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+
+<main>
+
+    <!--header-->
+    <header>        
+        <div class="logo">
+            <a href="#home">
+                <!-- <img src="files/CHOSEN.png" alt="National Malaria Control Program"> -->
+            </a>
+
+                
+                <div class="updatesTop">
+                    <p class="updatesP">Updates</p>
+                    <div class="news-container">
+                        <div class="news">
+                            <a href="train">
+                            SMC trainings are about to kick off in URR and CRR late August, 
+                            and WR2 and LRR early june. May we witness all the cycles and many 
+                            more to come. this is a test for nmcp's website.
+                            </a>
+                        </div>
+                        <div class="news">
+                            <a href="#another">
+                            World Malaria Day march from Bakoteh to Sukuta Upper Basic School where we held a
+                              successful gathering on tackling malaria in the Gambia and beyong. In attendace was 
+                              the governor of kombo, the alkalo and many more.
+                            </a>
+                        </div>
+                        <div class="news">
+                            <a href="#wmdMarch">
+                            This is another new, it will be displayed here. thanks, coming soon 
+                            coming soon, coming soon In sha Allah. what else to write, what else to write
+                             saturday sunday up to friday. development. test. test. test. test. test.
+                            </a>
+                        </div>
+                        <!-- Add more news items here with a similar structure -->
+                    </div>                  
+                </div>               
+        </div>
+    </header>
+
+        <!-- Navigator -->
+        
+        <div class="navigation">
+            <div class="navContainer">
+                <div class="navbar" id="myNavbar">
+                    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+                        &#9776; <!-- This is the hamburger icon -->
+                    </a>
+                    <a href="home.html">Home</a>
+                    <a href="about-us.html">About Us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Technical Areas 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="activity1.html">Malaria Case-Based Surveillance</a>
+                            <a href="activity2.html">Indoor Residual Spraying</a>
+                            <a href="activity3.html">Mass LLIN</a>
+                            <a href="activity3.html">Seasonal Malaria Chemoprevention</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button class="dropbtn">Resources 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="activity1.html">Downloads</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button class="dropbtn">Media Center 
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="activity1.html">News & Updates</a>
+                            <a href="activity2.html">Events</a>
+                            <a href="activity3.html">Gallery</a>
+                        </div>
+                    </div>
+                    <a href="about-us.html">Contact Us</a>
+                </div>
+            </div>
+            <!-- Search Container -->
+            <div class="searchcontainer">
+                <input type="text" placeholder="Search..." class="search-input" id="searchInput">
+                <button class="search-button" id="searchButton">
+                    <i class="fa fa-search"></i> <!-- This is the search icon -->
+                </button>
+            </div>
+        </div>
+
+        
+    
+        <!-- image slideshow -->
+         <!-- Slideshow container -->
+         <div class="slideshow-container">
+            <div id="results"></div>
+            <div class="mySlides fade">
+                <div class="textContainer">
+                    <div class="text-container-h">
+                        <h1>Join Us End Malaria in the Gambia</h1>
+                    </div>
+
+                    <div class="text-container-p">
+                        <p>With a concern effort from the Ministry of Health and partners, 
+                            Control Program is relentlessly fighting against Malaria.</p>
+                    </div>
+
+                    <div class="text-container-btn">
+                        <a href="#" class="btn">Our Programs</a>
+                    </div>
+                </div>
+
+                <img src="files/aa6.jpeg">
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="textContainer">
+                    <div class="text-container-h">
+                        <h1>Zero Malaria Starts With Me</h1>
+                    </div>
+
+                    <div class="text-container-p">
+                        <p>With a concern effort from the Ministry of Health and partners, 
+                        Control Program is relentlessly fighting against Malaria.
+                        </p>
+                    </div>
+
+                    <div class="text-container-btn">
+                        <a href="#" class="btn">Our Programs</a>
+                    </div>
+                </div>
+
+                <img src="files/irsk.jpg">
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="textContainer">
+                    <div class="text-container-h">
+                        <h1>A generation that is Malaria free.</h1>
+                    </div>
+
+                    <div class="text-container-p">
+                        <p>With a concern effort from the Ministry of Health and partners, 
+                        Control Program is relentlessly fighting against Malaria.</p>
+                    </div>
+
+                    <div class="text-container-btn">
+                        <a href="#" class="btn">Our Programs</a>
+                    </div>
+                </div>
+
+                <img src="files/llin.jpg">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="theDots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div> 
+            
+        </div>
+
+        <div class="bottomUpdates">
+            <img src="files/no-mosquito-sign-white.png" alt="">
+            <div class="bottomNews">
+                <p><span class="eventDate">August 24, 2024</span><br>
+                <span class="upcomingEvents">Upcoming Events</span>
+                </p>
+            </div>
+            <div class="bottomNewsSlides">
+                <marquee scrollamount="15" direction="left">
+                    <p>
+                        The Training For The SMC Data Collectors Will Be Held
+                         in URR and CRR on the 24th of August, 2024.
+                    </p>
+                </marquee>
+            </div>
+            <div class="bottomEventDetails">
+                <a href="#Event">Event Details &#8594;</a>
+            </div>              
+        </div>
+        
+        
+
+
+        <div class="technicalAreasContainer">
+
+            <div class="technicalAreasText">
+                <div class="technicalAreasP">
+                    <p>WHAT WE'RE DOING <span class="dash">&#8594;</span><i class="fa-solid fa-dash"></i></p>
+                </div>
+                <div>
+                    <h1>Technical Areas</h1>
+                </div>
+                <div>
+                    <p class="technicalAreasP2">Malaria in Gambia remains a significant public health concern and is listed 
+                        among the top 10 causes of outpatient visits in the country. Currently malaria accounts for 18 percent
+                         of all our outpatient visits in public health facilities.</p>
+                </div>
+                <div class="p3Container">
+                    <p class="technicalAreasP3">
+                        The most vulnerable populations are children below the age of five years and expectant women.
+                         The vision of the Division of Malaria Control Programme is to have a malaria-free Gambia and 
+                         the goal is to ensure a reduction of malaria incidence and deaths by 75% of the 2016 levels 
+                         by 2023
+                    </p>
+                </div>
+            </div>
+            <img src="files/mbn.jpg" alt="">
+        </div>
+
+        <div class="whatWeDoContainer">
+
+            <div class="whatWeDoContainerText">
+                <p class="whatWeDoContainerP1">WHAT WE DO <span class="dash">&#8594;</span><i class="fa-solid fa-dash"></i></p>
+                <h1>National Malaria <br> Program Focus</h1>
+                <p class="whatWeDoContainerP2">The vision of the Malaria Control Programme is to have a 
+                    malaria-free Gambia and the goal is to ensure a reduction of 
+                    malaria incidence and deaths by 75%.</p>
+            </div>
+            <div class="whatWeDoGridContainer">
+                <div class="grid-item"><a href="#link1"><span class="whatWeDoGridHeader">Malaria Surveillance</span>
+                    <p>Malaria Case-Based Surveillance</p></a>
+                </div>
+                <div class="grid-item"><a href="#link2"><span class="whatWeDoGridHeader">Mass Net Distribution</span>
+                    <p>Insecticide Nets Distribution</p></a>
+                </div>
+                <div class="grid-item"><a href="#link3"><span class="whatWeDoGridHeader">Indoor Residual Spraying</span>
+                    <p>Indoor Residual Spraying</p></a>
+                </div>
+                <div class="grid-item"><a href="#link4"><span class="whatWeDoGridHeader">Seasonal Malaria Chemoprevention</span>
+                    <p>Malaria prevent for children under 5</p></a>
+                </div>
+                <div class="grid-item"><a href="#link5"><span class="whatWeDoGridHeader">Malaria Indicator Survey</span>
+                    <p>Malaria Indicator Survey</p></a>
+                </div>
+                <div class="grid-item"><a href="#link6"><span class="whatWeDoGridHeader">Malaria Awareness</span>
+                    <p>Malaria Sensitisation On Local Communities</p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="partnersContainer">
+            
+            <div class="container">
+                <p class="partnersP">Working together</p>
+                <h2 class="partnersH2">Our Partners</h2>
+                <div class="partners-scroll">
+                  <a href="https://partner1.com" target="_blank">
+                    <img src="files/Project-Management-Institute.png" alt="PMI Logo">
+                  </a>
+                  <a href="https://partner2.com" target="_blank">
+                    <img src="files/crs.jpg" alt="CRS Logo">
+                  </a>
+                  <a href="https://partner3.com" target="_blank">
+                    <img src="files/usaid3327.jpg" alt="US Aid Logo">
+                  </a>
+                  <a href="https://partner4.com" target="_blank">
+                    <img src="files/path.jpeg" alt="PATH Logo">
+                  </a>
+                  <a href="https://partner5.com" target="_blank">
+                    <img src="files/who.jpg" alt="WHO Logo">
+                  </a>
+                  <a href="https://partner6.com" target="_blank">
+                    <img src="files/coatofarms.png" alt="Gambia Coat of Arms">
+                  </a>
+                </div>
+              </div>
+              
+        </div>
+
+
+        <div class="latestNews">
+            <div class="latestNewsHead">
+                <h1>Latest News</h1>
+                <a href="#test"><span class="all">All</span></a>
+            </div>
+
+            <div class="ohNews">
+                <div class="newsGridContainer">
+                    <div class="newsItem" >
+                        <a href="#" style="text-decoration: none;">
+                            <img id="Train" class="newsImg" src="files/smc.jpeg" alt="">
+                            <h2 class="newsTitle">SMC Trainings</h2>
+                            <p class="newsDate">August 18, 2024</p>
+                            <p class="newsSnippet">SMC trainings are about to kick off in URR and CRR late August, 
+                                and WR2 and LRR early june. May we witness all the cycles and many 
+                                more to come. this is a test for nmcp's website.</p>
+                        </a>
+                    </div>
+                    <div class="newsItem">
+                        <a href="#" style="text-decoration: none;">  
+                            <img id="another" class="newsImg" src="files/smc.jpeg" alt="">
+                            <h2 class="newsTitle">Another News</h2>
+                            <p class="newsDate">August 17, 2024</p>
+                            <p class="newsSnippet"> World Malaria Day march from Bakoteh to Sukuta Upper Basic School where we held a
+                                successful gathering on tackling malaria in the Gambia and beyong. In attendace was 
+                                the governor of kombo, the alkalo and many more.</p>
+                        </a>
+                    </div>
+                    <div class="newsItem" >
+                        <a href="#test" style="text-decoration: none;">
+                            <img id="wmdMarch" class="newsImg" src="files/smc.jpeg" alt="">
+                            <h2 class="newsTitle">World Malaria Day march</h2>
+                            <p class="newsDate">August 16, 2024</p>
+                            <p class="newsSnippet">World Malaria Day march from Bakoteh to Sukuta Upper Basic School where we held a
+                                successful gathering on tackling malaria in the Gambia and beyong. In attendace was 
+                                the governor of kombo, the alkalo and many more.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+
+
+
+</main>
+
+<div class="info">
+        <div class="contactsCrew">
+            <h1>Contacts</h1>
+            <p><i id="conIcons" class="fa">&#xf0e0;</i>nmcpgambia1@gmail.com</p>
+            <p><i id="conIcons" class="material-icons">&#xe567;</i>F87F+CMX, Kanifing Municipal Council</p>
+            <p><i id="conIcons" class="material-icons">&#xe551;</i>(220) 439-3051</p>
+        </div>
+
+        <div class="usefulLinks">
+            <h1>Useful Links</h1>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">Ministry of Health</a>
+            </p>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">PATH</a>
+            </p>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">Rollback Malaria</a>
+            </p>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">Malaria Foundation International (MFI)</a>
+            </p>
+        </div>
+
+        <div class="otherLinks">
+            <h1>Other Links</h1>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">PubMed</a>
+            </p>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">E-drug</a>
+            </p>
+            <p>
+                <i id="conIcons" class='fas'>&#xf531;</i><a href="">Malaria Atlas Project (MAP)</a>
+            </p>
+        </div>
+
+
+    </div>
+
+<div>
+    <footer>
+        <p>&copy; 2024 - National Malaria Control Programme</p>
+    </footer>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
+
